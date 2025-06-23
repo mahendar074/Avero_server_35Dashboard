@@ -1,0 +1,8 @@
+{ pkgs }: {
+  deps = [
+    pkgs.nodejs-18_x
+    pkgs.nodePackages.typescript
+    pkgs.nodePackages.ts-node
+    pkgs.nodePackages.npm
+  ];
+}
